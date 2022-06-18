@@ -27,11 +27,11 @@ function passwordCriteria(){
 function checkPassword(inputtxt){
   var passInput = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
   if (inputtxt.value.match(passInput)){
-    alert("Password Confirmed")
+    alert("Password Confirmed");
     return true;
   }
   else{
-    alert("Incorrect Criteria Try Again...")
+    alert("Incorrect Criteria Try Again...");
     return false;
   }
 }
