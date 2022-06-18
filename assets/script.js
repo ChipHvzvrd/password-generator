@@ -38,5 +38,5 @@ function checkPassword(inputtxt){
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 generateBtn.addEventListener("click", passwordCriteria);
-//passwordInput.addEventListener("click", checkPassword);
+passwordInput.addEventListener("click", checkPassword);
 
